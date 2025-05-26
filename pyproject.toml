@@ -29,4 +29,4 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.plugins."manim.plugins"]
-"manim_meshes" = "module:object.attr"
+"manim_meshes" = "manim_meshes"
