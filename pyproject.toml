@@ -9,20 +9,20 @@ license = "MIT"
 repository = "https://github.com/bmmtstb/manim-meshes"
 
 [tool.poetry.dependencies]
-python = "3.8.18"
-decorator = "^5.0.9"
-manim = "^0.16.0"
-manimgl = "^1.6.1"
-ManimPango = "^0.4.1"
-numpy = "^1.24.0"
-trimesh = "^3.12.5"
+python = "*"
+decorator = "*"
+manim = "0.19.0"
+manimgl = "*"
+ManimPango = "*"
+numpy = "*"
+trimesh = "*"
 moderngl = "*"
 
 [tool.poetry.dev-dependencies]
-meshio = "^5.3.4"
-pylint = "3.0.2"
-pytest = "^7.2.0"
-typing = "^3.7"
+meshio = "*"
+pylint = "*"
+pytest = "*"
+typing = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
