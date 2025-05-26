@@ -21,11 +21,11 @@ BM3DM: DefaultParameters = {
     "clear_vertices":                             (bool, True),
     "clear_edges":                                (bool, True),
     "clear_faces":                                (bool, True),
-    "edges_color":                                (Color, Color(m.BLUE)),
+    "edges_color":                                (Color, Color(m.BLUE.to_hex())),
     "edges_width":                                (float, 0.1),
-    "faces_color":                                (Color, Color(m.BLUE_D)),
+    "faces_color":                                (Color, Color(m.BLUE_D.to_hex())),
     "faces_opacity":                              (float, 0.4),
-    "verts_color":                                (Color, Color(m.GREEN)),
+    "verts_color":                                (Color, Color(m.GREEN.to_hex())),
     "verts_size":                                 (float, 0.04),
     "pre_function_handle_to_anchor_scale_factor": (float, 0.00001),
 }
@@ -38,18 +38,18 @@ BM2DM: DefaultParameters = {
     "clear_vertices":                             (bool, True),
     "clear_edges":                                (bool, True),
     "clear_faces":                                (bool, True),
-    "edges_color":                                (Color, Color(m.LIGHT_GREY)),
+    "edges_color":                                (Color, Color(m.LIGHT_GREY.to_hex())),
     "edges_width":                                (float, 1.5),
-    "faces_color":                                (Color, Color(m.BLUE_E)),
+    "faces_color":                                (Color, Color(m.BLUE_E.to_hex())),
     "faces_opacity":                              (float, 1.),
-    "verts_color":                                (Color, Color(m.GREEN)),
+    "verts_color":                                (Color, Color(m.GREEN.to_hex())),
     "verts_size":                                 (float, 0.02),
     "pre_function_handle_to_anchor_scale_factor": (float, 0.00001),
 }
 
 # opengl_mesh_default_params
 OGLM: DefaultParameters = {
-    "color": (Color, Color(m.GREY)),
+    "color": (Color, Color(m.GREY.to_hex())),
     "depth_test": (bool, True),
     "gloss": (float, 0.3),
     "opacity": (float, 1.0),
